@@ -60,3 +60,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+BillRenamer/BillRenamer/Keys.swift
+.DS_Store
+BillRenamer/BillRenamer.xcodeproj/project.xcworkspace/xcshareddata/
+BillRenamer/BillRenamer.xcodeproj/project.xcworkspace/contents.xcworkspacedata
