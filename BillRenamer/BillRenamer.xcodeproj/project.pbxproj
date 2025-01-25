@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4766509A2D44726300D668B3 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 476650992D44726300D668B3 /* FeedKit */; };
 		4766509C2D44726300D668B3 /* XMLKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4766509B2D44726300D668B3 /* XMLKit */; };
+		476650A22D44762200D668B3 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 476650A12D44762200D668B3 /* OpenAI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4766509A2D44726300D668B3 /* FeedKit in Frameworks */,
+				476650A22D44762200D668B3 /* OpenAI in Frameworks */,
 				4766509C2D44726300D668B3 /* XMLKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +88,7 @@
 			packageProductDependencies = (
 				476650992D44726300D668B3 /* FeedKit */,
 				4766509B2D44726300D668B3 /* XMLKit */,
+				476650A12D44762200D668B3 /* OpenAI */,
 			);
 			productName = BillRenamer;
 			productReference = 4766508E2D4471CB00D668B3 /* BillRenamer */;
@@ -117,6 +120,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				476650982D44726300D668B3 /* XCRemoteSwiftPackageReference "FeedKit" */,
+				476650A02D44762200D668B3 /* XCRemoteSwiftPackageReference "OpenAI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4766508F2D4471CB00D668B3 /* Products */;
@@ -311,6 +315,14 @@
 				version = "10.0.0-rc.2";
 			};
 		};
+		476650A02D44762200D668B3 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -323,6 +335,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 476650982D44726300D668B3 /* XCRemoteSwiftPackageReference "FeedKit" */;
 			productName = XMLKit;
+		};
+		476650A12D44762200D668B3 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 476650A02D44762200D668B3 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
