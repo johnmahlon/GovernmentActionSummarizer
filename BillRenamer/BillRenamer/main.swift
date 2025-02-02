@@ -18,6 +18,10 @@ let presActionItems = try await RSSFeed(urlString: "https://www.whitehouse.gov/p
             let oneWeekAgo = Calendar.current.date(byAdding: .day, value: -7, to: today)!
             return pubDate >= oneWeekAgo && pubDate <= today
     }
+    .sorted {
+        $0.pubDate! > $1.pubDate!
+    }
+    .prefix(10)
     .map {
         ChatQuery(
             messages: [
