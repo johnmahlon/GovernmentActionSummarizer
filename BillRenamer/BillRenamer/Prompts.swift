@@ -28,13 +28,12 @@ Please format the information into a JSON object with the structure provided bel
 3. Link: [Original Link Here]
 
 JSON Structure:
-```json
 {
     "title": $title (String),
     "summary": $summary (String),
     "link": $link (String)
 }
-```
+
 
 Replace the placeholders with the provided information and ensure the JSON is properly formatted. ONLY RESPOND WITH VALID JSON. Double check your work to make sure your response is valid JSON matching the specification above.
 """
