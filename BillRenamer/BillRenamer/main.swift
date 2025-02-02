@@ -30,7 +30,7 @@ let presActionItems = try await RSSFeed(urlString: "https://www.whitehouse.gov/p
                 .user(.init(content: .string($0.link ?? "No Link")))
                 
             ],
-            model: .gpt4_o_mini
+            model: .gpt4_o
         )
     }
     .asyncMap {
