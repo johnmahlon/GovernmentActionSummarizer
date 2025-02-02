@@ -1,4 +1,8 @@
 # Government Action Summarizer
+
+NOTE: This is currently a WIP. The feed is not automated or live, but technically available. 
+
+
 This Swift script fetches and analyzes Presidential Actions, providing a more descriptive and readable experience.
 
 Key Features:
