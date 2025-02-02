@@ -46,7 +46,9 @@ let presActionItems = try await RSSFeed(urlString: "https://www.whitehouse.gov/p
         try JSONDecoder().decode(GPTResponse.self, from: $0.response.data(using: .utf8)!)
     }
     .map {
-        RSSFeedItem(title: $0.title, link: $0.link, description: "\($0.summary)")
+        var description = $0.summary
+        description += "<br><br><i>Disclaimer: This response is AI-generated and may contain inaccuracies, outdated information, or absurd claims. Use at your own risk.</i>"
+        return RSSFeedItem(title: $0.title, link: $0.link, description: description)
     }
    
 
