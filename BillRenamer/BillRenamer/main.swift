@@ -47,7 +47,7 @@ let presActionItems = try await RSSFeed(urlString: "https://www.whitehouse.gov/p
     }
     .map {
         var description = $0.summary
-        description += "Disclaimer: This response is AI-generated and may contain inaccuracies, outdated information, or absurd claims. Use at your own risk."
+        description += "\n\nDisclaimer: This response is AI-generated and may contain inaccuracies, outdated information, or absurd claims. Use at your own risk."
         return RSSFeedItem(title: $0.title, link: $0.link, description: description)
     }
    
