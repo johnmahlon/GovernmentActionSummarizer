@@ -9,10 +9,15 @@ import Foundation
 import FeedKit
 import OpenAI
 
-try await RSSFeed(urlString: "https://www.whitehouse.gov/presidential-actions/feed")
+let presActionItems = try await RSSFeed(urlString: "https://www.whitehouse.gov/presidential-actions/feed")
     .channel?
     .items?
-    .prefix(3)
+    .filter {
+        guard let pubDate = $0.pubDate else { return false }
+            let today = Date()
+            let oneWeekAgo = Calendar.current.date(byAdding: .day, value: -7, to: today)!
+            return pubDate >= oneWeekAgo && pubDate <= today
+    }
     .map {
         ChatQuery(
             messages: [
@@ -31,9 +36,23 @@ try await RSSFeed(urlString: "https://www.whitehouse.gov/presidential-actions/fe
             usage: $0.usage! // yeah, I know
         )
     }
-    .forEach {
-        print("\($0.response)\nCost: \($0.cost)\n\n")
+    .map {
+        try JSONDecoder().decode(GPTResponse.self, from: $0.response.data(using: .utf8)!)
     }
+    .map {
+        RSSFeedItem(title: $0.title, description: "\($0.summary) \n \($0.bias)")
+    }
+   
+
+let feed = RSSFeed(channel: .init(title: "Non-Political Orders", items: presActionItems))
+
+print(try feed.toXMLString(formatted: true))
+
+struct GPTResponse: Decodable {
+    let title: String
+    let summary: String
+    let bias: String
+}
 
 struct AIResponseInfo {
     let response: String
