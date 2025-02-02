@@ -1,4 +1,4 @@
-# Government Action Summary
+# Government Action Summarizer
 This Swift script fetches and analyzes Presidential Actions, providing a more descriptive and readable experience.
 
 Key Features:
