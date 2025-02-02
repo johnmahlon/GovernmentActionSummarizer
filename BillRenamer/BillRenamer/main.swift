@@ -33,7 +33,7 @@ let presActionItems = try await RSSFeed(urlString: "https://www.whitehouse.gov/p
     .map {
         return AIResponseInfo(
             response: $0.choices.first?.message.content?.string ?? "",
-            usage: $0.usage! // yeah, I know
+            usage: $0.usage!
         )
     }
     .map {
@@ -44,39 +44,9 @@ let presActionItems = try await RSSFeed(urlString: "https://www.whitehouse.gov/p
     }
    
 
-let feed = RSSFeed(channel: .init(title: "Non-Political Orders", items: presActionItems))
+let feed = RSSFeed(channel: .init(title: "Presidential Action Summaries", items: presActionItems))
 
 print(try feed.toXMLString(formatted: true))
-
-struct GPTResponse: Decodable {
-    let title: String
-    let summary: String
-    let bias: String
-}
-
-struct AIResponseInfo {
-    let response: String
-    let usage: ChatResult.CompletionUsage
-    var cost: String {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .currency
-
-        return formatter.string(
-            from: NSNumber(
-                value: calculatePrompt(usage.promptTokens) + calculateCompletion(usage.completionTokens)
-            )
-        )! // yeah ! is bad I know
-    }
-    
-    
-    private func calculatePrompt(_ x: Int) -> Double {
-        (Double(x) / 1000.0) * 0.00250
-    }
-    
-    private func calculateCompletion(_ x: Int) -> Double {
-        (Double(x) / 1000.0) * 0.01000
-    }
-}
 
 extension Sequence {
     func asyncMap<T>(
