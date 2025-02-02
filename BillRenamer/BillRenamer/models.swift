@@ -10,7 +10,7 @@ import OpenAI
 struct GPTResponse: Decodable {
     let title: String
     let summary: String
-    let bias: String
+    let link: String
 }
 
 struct AIResponseInfo {

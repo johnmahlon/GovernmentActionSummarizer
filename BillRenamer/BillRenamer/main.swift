@@ -22,7 +22,9 @@ let presActionItems = try await RSSFeed(urlString: "https://www.whitehouse.gov/p
         ChatQuery(
             messages: [
                 .system(.init(content: Prompts.preprompt)),
-                .user(.init(content: .string($0.content?.encoded ?? "")))
+                .user(.init(content: .string($0.content?.encoded ?? ""))),
+                .user(.init(content: .string($0.link ?? "No Link")))
+                
             ],
             model: .gpt4_o_mini
         )
@@ -40,7 +42,7 @@ let presActionItems = try await RSSFeed(urlString: "https://www.whitehouse.gov/p
         try JSONDecoder().decode(GPTResponse.self, from: $0.response.data(using: .utf8)!)
     }
     .map {
-        RSSFeedItem(title: $0.title, description: "\($0.summary)\n\n\($0.bias)")
+        RSSFeedItem(title: $0.title, link: $0.link, description: "\($0.summary)")
     }
    
 
