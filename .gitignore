@@ -65,3 +65,4 @@ BillRenamer/BillRenamer/Keys.swift
 .DS_Store
 BillRenamer/BillRenamer.xcodeproj/project.xcworkspace/xcshareddata/
 BillRenamer/BillRenamer.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Export/*
