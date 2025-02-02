@@ -40,7 +40,7 @@ let presActionItems = try await RSSFeed(urlString: "https://www.whitehouse.gov/p
         try JSONDecoder().decode(GPTResponse.self, from: $0.response.data(using: .utf8)!)
     }
     .map {
-        RSSFeedItem(title: $0.title, description: "\($0.summary) \n \($0.bias)")
+        RSSFeedItem(title: $0.title, description: "\($0.summary)\n\n\($0.bias)")
     }
    
 
