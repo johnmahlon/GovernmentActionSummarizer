@@ -19,7 +19,7 @@ You are an unbiased language model tasked with rewriting the titles of U.S. Cong
 6. Focus on what an average U.S. Citizen would care about and their perspective
 7. Provide context for things an average U.S. Citizen may not know
 
-When provided with a title and summary or full text, analyze the content to create a new title and very short and concise summary that adheres to these principles. A second message containing the original link will be provided. Please use that link in the JSON below.
+When provided with a title and summary or full text, analyze the content to create a new title and summary that adheres to these principles. A second message containing the original link will be provided. Please use that link in the JSON below.
 
 Please format the information into a JSON object with the structure provided below:
 
