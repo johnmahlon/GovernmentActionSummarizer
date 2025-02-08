@@ -1,5 +1,7 @@
 # Government Action Summarizer
 
+View Page at: https://johnmahlon.me/GovernmentActionSummarizer/
+
 This script fetches and analyzes Presidential Actions, providing a more descriptive and readable experience.
 
 Key Features:
