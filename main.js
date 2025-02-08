@@ -33,6 +33,8 @@ JSON Structure:
 Replace the placeholders with the provided information and ensure the JSON is properly formatted. ONLY RESPOND WITH VALID JSON. Double check your work to make sure your response is valid JSON matching the specification above.
 `;
 
+let disclaimer = " Disclaimer: This content is AI generated. Use at your own risk. Please consult the original articles for accurate information."
+
 dotenv.config(); 
 
 let cache;
@@ -94,7 +96,7 @@ async function createRSSFeed(json) {
     json.forEach(j => {
         rssFeed.item({
             title: j.title,
-            description: j.summary,
+            description: j.summary + disclaimer,
             url: j.link
         });
     });
