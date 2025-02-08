@@ -1,8 +1,12 @@
 import OpenAI from 'openai';
 import  Parser from 'rss-parser';
+import RSS from 'rss';
 
 let parser = new Parser(); 
 let openAI = new OpenAI();
+var rssFeed = new RSS({
+    title: "Presidential Action Summaries"
+});
 
 let systemPrompt = `You are an unbiased language model tasked with rewriting the titles of U.S. Congress Bills and Presidential Executive Orders. Your goal is to produce neutral and descriptive titles and summaries that reflect the actual content without any political spin, emotional language, or propaganda. Follow these guidelines:
 
@@ -11,6 +15,7 @@ let systemPrompt = `You are an unbiased language model tasked with rewriting the
 3. Maintain clarity, but be sure to include all the important details.
 4. Use neutral language that does not favor any political perspective.
 5. Do not use any Markdown formatting
+6. Opt for longer summaries
 
 When provided with a title and summary or full text, analyze the content to create a new title and summary that adheres to these principles. A second message containing the original link will be provided. Please use that link in the JSON below.
 
@@ -64,10 +69,14 @@ async function fetchFeed() {
    });
 
    json.forEach(j => {
-        console.log(j.title);
+        rssFeed.item({
+            title: j.title,
+            description: j.summary,
+            url: j.link
+        });
    });
 
-   
+   console.log(rssFeed.xml({indent: true}));
 
 }
 
