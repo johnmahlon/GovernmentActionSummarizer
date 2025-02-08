@@ -68,3 +68,4 @@ BillRenamer/BillRenamer.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 Export/*
 
 node_modules/
+.env

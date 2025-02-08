@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dotenv": "^16.4.7",
     "openai": "^4.83.0",
     "rss": "^1.2.2",
     "rss-parser": "^3.13.0"
