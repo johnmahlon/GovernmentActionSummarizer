@@ -1,2 +1,3 @@
+#!/usr/bin/zsh
 mv actions_feed.xml actions_feed.backup.xml
 node main.js
