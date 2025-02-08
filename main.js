@@ -2,6 +2,8 @@ import OpenAI from 'openai';
 import Parser from 'rss-parser';
 import RSS from 'rss';
 import { readFile, writeFile } from 'fs/promises';
+import dotenv from 'dotenv'; 
+import shelljs from 'shelljs'
 
 let systemPrompt = `You are an unbiased language model tasked with rewriting the titles of U.S. Congress Bills and Presidential Executive Orders. Your goal is to produce neutral and descriptive titles and summaries that reflect the actual content without any political spin, emotional language, or propaganda. Follow these guidelines:
 
@@ -30,6 +32,8 @@ JSON Structure:
 
 Replace the placeholders with the provided information and ensure the JSON is properly formatted. ONLY RESPOND WITH VALID JSON. Double check your work to make sure your response is valid JSON matching the specification above.
 `;
+
+dotenv.config(); 
 
 let cache;
 async function getCache() {
@@ -74,7 +78,7 @@ async function processFeed(sortedFeed) {
 
 
 async function fetchFeed() {
-    let parser = new Parser();
+    const parser = new Parser();
 
     const feed = await parser.parseURL('https://www.whitehouse.gov/presidential-actions/feed');
     return feed.items
@@ -114,4 +118,8 @@ json.concat(cache).slice(0, 10);
 // overwrite new file
 await writeFile('cache.json', JSON.stringify(json, null, 2));
 await createRSSFeed(json);
+
+shelljs.exec('git add .');
+shelljs.exec('git commit -m "add feed"');
+shelljs.exec('git push');
 

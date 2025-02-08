@@ -1,5 +1,5 @@
-mv bill_feed.xml bill_feed_old.xml
-~/Developer/BillRenamer/Export/Products/usr/local/bin/BillRenamer > ~/Developer/BillRenamer/bill_feed.xml
-git add bill_feed.xml
+mv actions_feed.xml actions_feed.backup.xml
+node main.js
+git add actions_feed.xml
 git commit -m "update feed"
 git push
