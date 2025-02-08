@@ -1,12 +1,7 @@
 import OpenAI from 'openai';
-import  Parser from 'rss-parser';
+import Parser from 'rss-parser';
 import RSS from 'rss';
-
-let parser = new Parser(); 
-let openAI = new OpenAI();
-var rssFeed = new RSS({
-    title: "Presidential Action Summaries"
-});
+import { readFile, writeFile } from 'fs/promises';
 
 let systemPrompt = `You are an unbiased language model tasked with rewriting the titles of U.S. Congress Bills and Presidential Executive Orders. Your goal is to produce neutral and descriptive titles and summaries that reflect the actual content without any political spin, emotional language, or propaganda. Follow these guidelines:
 
@@ -34,15 +29,21 @@ JSON Structure:
 
 
 Replace the placeholders with the provided information and ensure the JSON is properly formatted. ONLY RESPOND WITH VALID JSON. Double check your work to make sure your response is valid JSON matching the specification above.
-`
+`;
 
+let cache;
+async function getCache() {
+    try {
+        cache = JSON.parse(await readFile('cache.json', 'utf8'));
+    } catch {
+        // if file errors or empty, assume nothing is in there
+        cache = [];
+    }
+}
 
-async function fetchFeed() {
-    let feed = await parser.parseURL('https://www.whitehouse.gov/presidential-actions/feed');
-    let sortedFeed = feed.items.sort((i1, i2) => i1.pubDate > i2.pubDate).slice(0, 3);
-
-
-    let completions = await Promise.all(sortedFeed.map((async item => {
+async function processFeed(sortedFeed) {
+    let openAI = new OpenAI();
+    const completions = await Promise.all(sortedFeed.map((async item => {
         let params = {
             model: 'gpt-4o-mini',
             messages: [
@@ -60,24 +61,57 @@ async function fetchFeed() {
         return await openAI.chat.completions.create(params);
     })));
 
-    let text = completions.map(comp => {
+    const text = completions.map(comp => {
         return comp.choices[0].message.content
     });
 
-   let json = text.map(t => {
+    let json = text.map(t => {
         return JSON.parse(t);
-   });
+    });
 
-   json.forEach(j => {
+    return json 
+}
+
+
+async function fetchFeed() {
+    let parser = new Parser();
+
+    const feed = await parser.parseURL('https://www.whitehouse.gov/presidential-actions/feed');
+    return feed.items
+        .sort((i1, i2) => i1.pubDate > i2.pubDate)
+        .filter(item => !cache.some(i => i.link === item.link));
+}
+
+async function createRSSFeed(json) {
+    let rssFeed = new RSS({
+        title: "Presidential Action Summaries"
+    });
+    
+    json.forEach(j => {
         rssFeed.item({
             title: j.title,
             description: j.summary,
             url: j.link
         });
-   });
-
-   console.log(rssFeed.xml({indent: true}));
-
+    });
+    
+    await writeFile('actions_feed.xml', rssFeed.xml({ indent: true }));
 }
 
-fetchFeed();
+await getCache(); 
+ // make backup
+await writeFile('cache-backup.json', JSON.stringify(cache, null, 2));
+const feed = await fetchFeed();
+
+if (feed.length === 0) {
+    // get out if its empty!
+    process.exit();
+}
+
+let json = await processFeed(feed);
+json.concat(cache).slice(0, 10);
+
+// overwrite new file
+await writeFile('cache.json', JSON.stringify(json, null, 2));
+await createRSSFeed(json);
+
