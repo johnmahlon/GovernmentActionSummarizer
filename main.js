@@ -104,6 +104,38 @@ async function createRSSFeed(json) {
     await writeFile('actions_feed.xml', rssFeed.xml({ indent: true }));
 }
 
+async function writeHTML(json) {
+    let htmlHead = `
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Presidential Actions</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <div class="container">
+  <p><a href="actions_feed.xml">RSS</a><br>
+    <i><b>Disclaimer:</b> This content is AI generated. Use at your own risk. Consult original post for more accurate information. At some point, all content below goes through an LLM. Even the "original post" links may be hallucinated.</i></p>
+    `;
+
+    json.forEach(post => {
+        htmlHead += `<h3>${post.title}</h3><i><a href="${post.link}">Original Post</a></i><br><p>${post.summary}</p><br>`;
+    });
+
+
+    let footer = `
+    </div>
+    </body>
+</html>
+    `;
+
+    htmlHead += footer; 
+
+    writeFile('index.html', htmlHead);
+}
+
 await getCache(); 
  // make backup
 await writeFile('cache-backup.json', JSON.stringify(cache, null, 2));
@@ -120,6 +152,7 @@ json.concat(cache).slice(0, 10);
 // overwrite new file
 await writeFile('cache.json', JSON.stringify(json, null, 2));
 await createRSSFeed(json);
+await writeHTML(json);
 
 shelljs.exec('git add .');
 shelljs.exec('git commit -m "add feed"');
