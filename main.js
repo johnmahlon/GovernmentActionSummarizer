@@ -133,7 +133,7 @@ async function writeHTML(json) {
 
     htmlHead += footer; 
 
-    writeFile('index.html', htmlHead);
+    await writeFile('index.html', htmlHead);
 }
 
 await getCache(); 
