@@ -66,3 +66,6 @@ BillRenamer/BillRenamer/Keys.swift
 BillRenamer/BillRenamer.xcodeproj/project.xcworkspace/xcshareddata/
 BillRenamer/BillRenamer.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 Export/*
+
+node_modules/
+.env
