@@ -1,5 +1,2 @@
 mv actions_feed.xml actions_feed.backup.xml
 node main.js
-git add actions_feed.xml
-git commit -m "update feed"
-git push
