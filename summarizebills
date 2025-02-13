@@ -2,4 +2,4 @@
 git fetch --al
 git pull
 cp actions_feed.xml actions_feed.backup.xml
-/home/john/.nvm/versions/node/v22.13.1/bin/node main.js
+/home/john/.nvm/versions/node/v22.14.0/bin/node main.js
