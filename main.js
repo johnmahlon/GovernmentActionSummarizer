@@ -117,7 +117,7 @@ async function writeHTML(json) {
 <body>
   <div class="container">
   <p><a href="actions_feed.xml">RSS</a> <a href="https://github.com/johnmahlon/GovernmentActionSummarizer">GitHub</a><br>
-  <p>Updates everyday at midnight UTC.</p><br>
+  <p>Updates 2-3x a day.</p><br>
     <i><b>Disclaimer:</b> This content is AI generated. Use at your own risk. Consult original post for more accurate information. At some point, all content below goes through an LLM. Even the "original post" links may be hallucinated.</i></p>
     `;
 
