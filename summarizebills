@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/usr/bin/bash
 git fetch --al
 git pull
 cp actions_feed.xml actions_feed.backup.xml
