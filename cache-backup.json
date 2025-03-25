@@ -1,17 +1,37 @@
 [
   {
-    "title": "Executive Order on Consolidation of Federal Procurement Practices",
-    "summary": "This executive order addresses the management of Federal procurement processes in the United States. It highlights that the Federal Government allocates approximately $490 billion annually on contracts for common goods and services. The order aims to establish policies that streamline and consolidate these procurement practices in order to reduce waste and increase efficiency, ultimately working towards the goal of saving taxpayer dollars.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2025/03/eliminating-waste-and-saving-taxpayer-dollars-by-consolidating-procurement/"
+    "title": "Memorandum on Accountability for Legal System Abuses",
+    "summary": "This memorandum directs the Attorney General and the Secretary of Homeland Security to implement measures aimed at ensuring accountability for lawyers and law firms that engage in actions violating United States laws or rules concerning attorney conduct. The objective is to enhance the efficiency and effectiveness of holding these legal practitioners accountable for such violations, thereby reinforcing the integrity of the legal system.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/03/preventing-abuses-of-the-legal-system-and-the-federal-court/"
   },
   {
-    "title": "Executive Order on Increasing American Mineral Production",
-    "summary": "This executive order outlines measures aimed at enhancing the production of minerals in the United States. The order signifies the government's recognition of the importance of domestic mineral resources for job creation, economic growth, and reducing reliance on foreign sources. By leveraging these resources, the administration aims to promote prosperity and strengthen the nation's mineral supply chain.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2025/03/immediate-measures-to-increase-american-mineral-production/"
+    "title": "Revocation of Security Clearances for Specific Individuals",
+    "summary": "This memorandum addresses the decision to rescind access to classified information for certain individuals identified as no longer suitable for such access in the national interest. The list includes individuals such as Antony Blinken, Jacob Sullivan, Lisa Monaco, Mark Zaid, Norman Eisen, Letitia James, and Alvin Bragg, among others. The memorandum outlines the determination made by the administration regarding the security clearances and emphasizes the rationale of national interest guiding this decision.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/03/rescinding-security-clearances-and-access-to-classified-information-from-specified-individuals/"
   },
   {
-    "title": "Executive Order on Enhancing Educational Outcomes Through Community and Parental Engagement",
-    "summary": "This executive order outlines the administration's commitment to improving educational outcomes by empowering parents, teachers, and communities. It emphasizes the importance of collaboration among families, educators, and local organizations to foster an effective learning environment for students. The order highlights strategies aimed at promoting engagement and ensuring access to high-quality educational opportunities as a means of enhancing overall success in education.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2025/03/improving-education-outcomes-by-empowering-parents-states-and-communities/"
+    "title": "Executive Order on Remedial Actions Related to Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "summary": "This Executive Order outlines actions taken to address specific issues concerning Paul, Weiss, Rifkind, Wharton & Garrison LLP, following the signing of Executive Order 14237 on March 14, 2025. The order states the authority of the President to implement these actions within the framework of the Constitution and U.S. laws, reflecting the ongoing governmental oversight in relation to the identified risks posed by the firm.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/03/addressing-remedial-action-by-paul-weiss/"
+  },
+  {
+    "title": "Executive Order on Improving Access to Government Data for Federal Employees",
+    "summary": "This Executive Order aims to improve the accessibility of government data for Federal employees by removing unnecessary barriers and encouraging inter-agency data sharing. The objective is to reduce bureaucratic duplication and inefficiencies within government operations. The Order emphasizes the importance of data accessibility in enhancing the overall effectiveness of government functions and facilitating better communication between agencies.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/03/stopping-waste-fraud-and-abuse-by-eliminating-information-silos/"
+  },
+  {
+    "title": "Enhancing Suitability and Fitness Standards for Federal Workforce",
+    "summary": "This memorandum outlines a directive from the President to strengthen the suitability and fitness standards for federal employees. It delegates authority for making suitability determinations and mandates necessary rulemaking to ensure that the federal workforce meets established fitness criteria. This initiative aims to improve the overall integrity and effectiveness of government personnel by establishing clear standards for suitability assessments.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/03/strengthening-the-suitability-and-fitness-of-the-federal-workforce/"
+  },
+  {
+    "title": "Directive on Addressing Discrimination and Equity Ideology in the Foreign Service",
+    "summary": "This memorandum outlines policy directions to the Secretaries of State, Agriculture, Commerce, and other relevant officials regarding the removal of discrimination and certain equity ideologies within the Foreign Service framework. It emphasizes the intent to create a more equitable environment devoid of discriminatory practices. The memorandum aims to provide guidance on the implementation of these policies in order to ensure fairness and inclusivity in the Foreign Service operations.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/03/removing-discrimination-and-discriminatory-equity-ideology-from-the-foreign-service/"
+  },
+  {
+    "title": "Promoting State and Local Preparedness for National Security and Infrastructure Resilience",
+    "summary": "This executive order focuses on enhancing national security and resilience through practical investments and strategies by state and local governments in American infrastructure. It emphasizes the need for federal policy to acknowledge the roles and responsibilities of these governments in fostering a secure and robust national framework.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/03/test/"
   }
 ]
