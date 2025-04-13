@@ -1,17 +1,37 @@
 [
   {
-    "title": "Adjustment of Tariff Rates in Response to Trading Partner Actions",
-    "summary": "This executive order outlines the authority of the President to modify reciprocal tariff rates based on retaliation measures taken by trading partners. The order references relevant legal frameworks enabling such actions, including the International Emergency Economic Powers Act and the National Emergencies Act. The intent is to ensure that U.S. tariff rates align appropriately with the measures adopted by foreign entities in trade relations, thereby promoting fair trading practices.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2025/04/modifying-reciprocal-tariff-rates-to-reflect-trading-partner-retaliation-and-alignment/"
+    "title": "Presidential Memorandum on Military Deployment for Border Security Operations",
+    "summary": "This memorandum outlines the directive for military involvement at the southern border of the United States. It specifies the roles of the Secretary of Defense, Secretary of the Interior, Secretary of Agriculture, and Secretary of Homeland Security in support of this mission. The memorandum aims to establish operational procedures for sealing the border and managing situations classified as invasions, under the authority granted to the President as Commander in Chief. It seeks to enhance national security measures related to border control and immigration enforcement.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/04/military-mission-for-sealing-the-southern-border-of-the-united-states-and-repelling-invasions/"
   },
   {
-    "title": "Executive Order on Legal Firm Conduct Related to National Security",
-    "summary": "This Executive Order outlines the authority of the President to regulate the access of lawyers and law firms to national security information based on their conduct. It emphasizes that legal professionals whose activities are deemed harmful to critical American interests should not be granted access to sensitive governmental information. The Order seeks to ensure that taxpayer resources are not utilized to support entities that engage in detrimental actions regarding national interests.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2025/04/addressing-risks-from-susman-godfrey/"
+    "title": "Addressing Security Risks Related to Unauthorized Information Disclosure",
+    "summary": "This memorandum outlines concerns regarding the actions of a former administrative staff assistant at the Department of Homeland Security, who is accused of betraying the integrity of Federal service by allegedly prioritizing personal interests over their official duties. The document emphasizes the risks associated with unauthorized information disclosure and the need for safeguarding sensitive information within federal agencies. It calls for vigilance and adherence to constitutional principles among executive departments and agencies to mitigate future risks.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/04/addressing-risks-associated-with-an-egregious-leaker-and-disseminator-of-falsehoods/"
   },
   {
-    "title": "Executive Order on Revitalizing U.S. Maritime Industry",
-    "summary": "This executive order addresses the decline of the United States' commercial shipbuilding capacity and maritime workforce, which has been attributed to prolonged governmental neglect. The order sets out initiatives aimed at revitalizing the maritime industry, strengthening the industrial base, and enhancing the capabilities of the maritime workforce to restore competitiveness and self-sufficiency in shipbuilding and related fields. The objectives include fostering innovation, promoting workforce development, and ensuring sustainable growth within the maritime sector.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-americas-maritime-dominance/"
+    "title": "Memorandum on Free Speech Rights and Government Censorship",
+    "summary": "This memorandum addresses the obligation of the Federal Government to uphold the free speech rights of American citizens. It expresses concern regarding recent practices that have allegedly led to the censorship of speech by government officials. The memorandum calls for a reassessment of measures related to free speech and urges executive departments and agencies to ensure that the rights of individuals are respected and protected. It highlights the importance of maintaining openness in public discourse and cautions against any actions that might infringe upon these rights.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/04/addressing-risks-from-chris-krebs-and-government-censorship/"
+  },
+  {
+    "title": "Initiative for Modernization of Defense Acquisition Processes and Promotion of Innovation in the Defense Industrial Base",
+    "summary": "This executive order sets forth the commitment of the President to enhance the capabilities of the United States military by modernizing the defense acquisition processes and fostering innovation within the defense industrial base. It aims to ensure that the military maintains superior warfighting capabilities through efficient procurement practices and the incorporation of advanced technologies. The order outlines objectives to drive improvements in the defense sector to support national security and military readiness.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/04/modernizing-defense-acquisitions-and-spurring-innovation-in-the-defense-industrial-base/"
+  },
+  {
+    "title": "Memorandum on Repealing Regulations Identified as Unlawful",
+    "summary": "This memorandum addresses the directive to review and remove regulations deemed unlawful and not conducive to economic growth and innovation. It emphasizes the view that certain regulations impose unjustified costs on consumers and businesses in the United States. The memorandum outlines the intention to prioritize regulatory reform aimed at enhancing economic conditions and fostering innovation in various sectors.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/04/directing-the-repeal-of-unlawful-regulations/"
+  },
+  {
+    "title": "Executive Order on Reducing Regulatory Barriers to Market Entry",
+    "summary": "This executive order outlines the intention to modify federal regulations that may inadvertently favor established market participants over new entrants. The order acknowledges that certain regulatory frameworks can hinder competition, entrepreneurship, and innovation. It sets forth a directive for federal agencies to review and revise regulations that may pose unnecessary barriers to economic participation. The overarching goal is to promote a more competitive market environment by ensuring regulatory practices do not unduly disadvantage new businesses.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/04/reducing-anti-competitive-regulatory-barriers/"
+  },
+  {
+    "title": "Implementation of Zero-Based Regulatory Budgeting to Review Energy Regulations",
+    "summary": "This executive order establishes a framework for implementing zero-based regulatory budgeting within the context of energy regulations in the United States. The intent is to reevaluate existing regulatory structures that may impede economic growth and innovation. It emphasizes the necessity of creating a regulatory environment that supports liberty and fosters developments in the energy sector. This order aims to ensure that regulations promote efficient use of resources while maintaining necessary oversight and accountability.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2025/04/zero-based-regulatory-budgeting-to-unleash-american-energy/"
   }
 ]
