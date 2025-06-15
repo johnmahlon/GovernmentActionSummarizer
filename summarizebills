@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-git fetch --al
+git fetch --all
 git pull
 cp actions_feed.xml actions_feed.backup.xml
 /home/john/.nvm/versions/node/v22.14.0/bin/node main.js
