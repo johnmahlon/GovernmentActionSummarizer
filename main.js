@@ -51,7 +51,7 @@ async function processFeed(sortedFeed) {
     let openAI = new OpenAI();
     const completions = await Promise.all(sortedFeed.map((async item => {
         let params = {
-            model: 'gpt-4o-mini',
+            model: 'gpt-4.1-nano',
             messages: [
                 {
                     role: 'system',
