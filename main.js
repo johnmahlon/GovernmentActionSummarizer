@@ -76,7 +76,8 @@ async function processFeed(sortedFeed) {
     });
 
     let json = text.map(t => {
-        return JSON.parse(t);
+        const cleaned = t.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
+        return JSON.parse(cleaned);
     });
 
     return json 
