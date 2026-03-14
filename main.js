@@ -1,4 +1,4 @@
-import OpenAI from 'openai';
+import OpenAI from 'openai'; // OpenRouter is OpenAI-compatible
 import Parser from 'rss-parser';
 import RSS from 'rss';
 import { readFile, writeFile } from 'fs/promises';
@@ -48,10 +48,14 @@ async function getCache() {
 }
 
 async function processFeed(sortedFeed) {
-    let openAI = new OpenAI();
+    let openAI = new OpenAI({
+        baseURL: 'https://openrouter.ai/api/v1',
+        apiKey: process.env.OPENROUTER_API_KEY,
+    });
+    const model = process.env.MODEL;
     const completions = await Promise.all(sortedFeed.map((async item => {
         let params = {
-            model: 'gpt-5-nano',
+            model,
             messages: [
                 {
                     role: 'system',
