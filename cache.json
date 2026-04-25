@@ -1,17 +1,37 @@
 [
   {
-    "title": "Presidential Nominations Submitted to Senate for Confirmation",
-    "summary": "A list of individuals nominated by the President to fill various federal positions subject to Senate confirmation, including Director of the Peace Corps, Ambassador to Belize, Inspector General of the Department of Justice, and other executive branch positions. These nominations were transmitted to the Senate for the confirmation process as required by the Constitution.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/nominations-sent-to-the-senate-633f/"
+    "title": "Presidential Determination on Defense Production Act Authority for Grid Infrastructure and Energy Supply Chain",
+    "summary": "Presidential determination memorandum issued to the Secretary of Energy invoking Section 303 of the Defense Production Act of 1950, as amended, to address grid infrastructure, equipment, and supply chain capacity. This determination follows Executive Order 14156, which declared a national energy emergency under the National Emergencies Act based on findings regarding inadequate energy production capacity in the United States. The memorandum authorizes the use of Defense Production Act authority to prioritize and allocate resources for the production of materials, equipment, and services necessary for grid infrastructure development and energy supply chain resilience.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-grid-infrastructure-equipment-and-supply-chain-capacity/"
   },
   {
-    "title": "Presidential Permit for Enbridge Energy Limited Partnership to Operate Pipeline Facilities at U.S.-Canada Border in North Dakota",
-    "summary": "This Presidential Permit grants Enbridge Energy, Limited Partnership authorization to operate and maintain three existing pipeline facilities located at Pembina County, North Dakota, at the international boundary between the United States and Canada. The permit is issued pursuant to the President's constitutional and statutory authority and is subject to specified conditions outlined in the permit document. Enbridge Energy, Limited Partnership is a Delaware-organized limited partnership being granted this authorization for cross-border pipeline operations.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-three-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between/"
+    "title": "Presidential Determination on Defense Production Act Authority for Energy Infrastructure Development and Manufacturing",
+    "summary": "This presidential determination invokes Section 303 of the Defense Production Act of 1950, as amended, to authorize prioritized development, manufacturing, and deployment of large-scale energy and energy-related infrastructure. The determination is issued pursuant to Executive Order 14156, which declared a national energy emergency under the National Emergencies Act on January 20, 2025. The determination directs the Secretary of Energy to implement measures related to energy infrastructure production and deployment under the delegated authorities of the Defense Production Act.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-development-manufacturing-and-deployment-of-large-scale-energy-and-energy-related-inf/"
   },
   {
-    "title": "Presidential Permit for Enbridge Pipelines (Southern Lights) L.L.C. to Operate Existing Pipeline Facilities at U.S.-Canada Border in North Dakota",
-    "summary": "This Presidential permit authorizes Enbridge Pipelines (Southern Lights) L.L.C., a Delaware limited liability company, to operate and maintain existing pipeline infrastructure located at the international boundary between the United States and Canada in Pembina County, North Dakota. The permit grants the company authorization to conduct specified activities at the cross-border pipeline facilities, subject to conditions outlined in the executive order.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-pipelines-southern-lights-l-l-c-to-operate-and-maintain-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between/"
+    "title": "Presidential Determination for Increased Natural Gas Infrastructure Production and Capacity",
+    "summary": "This presidential determination, issued pursuant to Section 303 of the Defense Production Act of 1950, directs the Secretary of Energy to allocate resources toward expanding natural gas transmission, processing, storage, and liquefied natural gas capacity infrastructure. The determination follows a preceding executive order declaring a national energy emergency under the National Emergencies Act, citing foreign policy considerations. The directive authorizes the government to prioritize and accelerate development of natural gas infrastructure capabilities to support national energy supply objectives.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-natural-gas-transmission-processing-storage-and-liquefied-natural-gas-capacity/"
+  },
+  {
+    "title": "Presidential Determination on Coal Supply Chains and Baseload Power Generation Capacity Under Defense Production Act Section 303",
+    "summary": "Presidential memorandum directed to the Secretary of Energy invoking Section 303 of the Defense Production Act of 1950 regarding coal supply chains and baseload power generation capacity. The determination follows Executive Order 14156 issued on January 20, 2025, which declared a national energy emergency under the National Emergencies Act, citing findings related to America's energy infrastructure and generation capacity.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-coal-supply-chains-and-baseload-power-generation-capacity/"
+  },
+  {
+    "title": "Presidential Determination on Domestic Petroleum Production, Refining, and Logistics Capacity Under the Defense Production Act of 1950",
+    "summary": "This presidential determination, issued pursuant to Section 303 of the Defense Production Act of 1950 as amended, directs the Secretary of Energy to take actions related to domestic petroleum production, refining, and logistics capacity. The determination follows Executive Order 14156, issued on January 20, 2025, which declared a national energy emergency under the National Emergencies Act based on findings regarding America's energy capacity and related infrastructure needs.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-domestic-petroleum-production-refining-and-logistics-capacity/"
+  },
+  {
+    "title": "Presidential Determination on Air Force Jet Fighter Training Operations in Idaho, Oregon, and Nevada",
+    "summary": "This presidential memorandum addresses Air Force jet fighter training operations conducted in Idaho, Oregon, and Nevada. The determination is issued to the Administrator of the Environmental Protection Agency and the Secretary of the Air Force, exercising presidential authority under the Constitution and applicable United States laws, specifically referencing section 313 of relevant statutory provisions. The memorandum establishes presidential directives regarding these military training activities across the specified western states.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-concerning-the-air-forces-jet-fighter-training-operations-in-idaho-oregon-and-nevada/"
+  },
+  {
+    "title": "Executive Order on Acceleration of Medical Treatment Development and Deployment for Serious Mental Illness and Suicide Prevention",
+    "summary": "An executive order directing federal agencies and policymakers to implement measures aimed at accelerating the development, approval, and deployment of medical treatments for serious mental illness and suicide prevention. The order addresses the stated burden of mental illness and suicide rates in the United States, affecting millions of Americans, and seeks to coordinate efforts across the medical field and government agencies to advance therapeutic options and interventions in this area.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/accelerating-medical-treatments-for-serious-mental-illness/"
   }
 ]
