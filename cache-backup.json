@@ -1,17 +1,42 @@
 [
   {
-    "title": "Presidential Nominations Sent to the Senate for Confirmation",
-    "summary": "A notification of multiple presidential nominations sent to the Senate for confirmation and advice. The nominations include David Brat of Virginia for Ambassador Extraordinary and Plenipotentiary to Australia, Hal Duncan of Texas for Deputy Director of the Office of Management and Budget, and Sean Kaufman of Georgia for Assistant Secretary for Preparedness and Response at the Department of Health and Human Services, among other positions requiring Senate confirmation.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/nominations-and-withdrawals-sent-to-the-senate-d935/"
+    "title": "Presidential Permit for Bridger Pipeline Expansion LLC Pipeline Facilities at U.S.-Canada Border",
+    "summary": "This presidential permit grants authorization to Bridger Pipeline Expansion LLC, a privately held limited liability company, to construct, connect, operate, and maintain pipeline facilities at the international boundary between the United States and Canada in Phillips County, Montana. The permit is issued under the authority vested in the President of the United States and is subject to specified conditions established by the executive branch for the operation of such cross-border infrastructure.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-bridger-pipeline-expansion-llc-to-construct-connect-operate-and-maintain-pipeline-facilities-at-the-international-boundary-at-phillips-county-montana-between-the/"
   },
   {
-    "title": "Presidential Nominations Sent to Senate for Various Federal Positions",
-    "summary": "The President submitted nominations to the Senate for multiple federal appointments including Riley Barnes of Texas for Director of the Peace Corps, Rudolph Bauer of South Carolina for Ambassador Extraordinary and Plenipotentiary to Belize, and Don Richard Berthiaume Jr. of Virginia for Inspector General of the Department of Justice, among other positions requiring Senate confirmation.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/nominations-sent-to-the-senate-633f/"
+    "title": "Proclamation: National Fallen Firefighters Memorial Weekend, 2026",
+    "summary": "A presidential proclamation designating a National Fallen Firefighters Memorial Weekend to honor volunteer and career firefighters who have died in the line of duty, with particular recognition for those lost during the preceding year. The proclamation acknowledges the courage and service of firefighters who have made the ultimate sacrifice in their work protecting communities.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/national-fallen-firefighters-memorial-weekend-2026/"
   },
   {
-    "title": "Presidential Permit for Enbridge Energy Limited Partnership to Operate and Maintain Pipeline Facilities at the United States-Canada Border in North Dakota",
-    "summary": "This presidential permit grants Enbridge Energy, Limited Partnership authorization to operate and maintain three existing pipeline facilities located at Pembina County, North Dakota, at the international boundary between the United States and Canada. The permit is issued under the authority vested in the President of the United States and is subject to specified conditions set forth in the document. Enbridge Energy, Limited Partnership is a limited partnership organized under Delaware law.",
-    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-permit-authorizing-enbridge-energy-limited-partnership-to-operate-and-maintain-three-existing-pipeline-facilities-at-pembina-county-north-dakota-at-the-international-boundary-between/"
+    "title": "Proclamation Designating April 2026 as National Foster Care Month",
+    "summary": "A presidential proclamation that officially designates April 2026 as National Foster Care Month. The proclamation acknowledges the hundreds of thousands of American children in the foster care system and calls attention to the role of foster care in providing shelter, nurturing, and preparation for children in the care system. The proclamation expresses support for foster care services and invites Americans to recognize and support the foster care system during the designated month.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/national-foster-care-month-2026/"
+  },
+  {
+    "title": "Executive Order on Establishing a Federal Retirement Savings Platform for Workers Without Employer-Sponsored Plans",
+    "summary": "This executive order directs the establishment of a federal retirement savings platform accessible to American workers who lack access to employer-sponsored retirement plans. The order identifies the absence of retirement savings options for tens of millions of Americans as a policy concern and authorizes the creation of a simplified, portable, and low-cost retirement savings mechanism. The platform, to be administered through a federal website, would provide eligible workers with a standardized retirement savings option independent of employer sponsorship. The order grants the President authority to implement this program pursuant to constitutional and statutory powers.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/promoting-retirement-savings-access-for-american-workers-by-establishing-trumpira-gov/"
+  },
+  {
+    "title": "Executive Order on Federal Procurement Practices and Contracting Requirements",
+    "summary": "This executive order establishes directives for federal procurement operations with stated objectives to improve cost predictability, reduce overhead expenses, and strengthen performance-based incentive structures in government contracting. The order addresses federal procurement practices and outlines expectations for how executive agencies should conduct contract management and vendor relations.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/promoting-efficiency-accountability-and-performance-in-federal-contracting/"
+  },
+  {
+    "title": "Presidential Determination on Defense Production Act Authority for Energy Grid Infrastructure and Supply Chain",
+    "summary": "A Presidential Memorandum directed to the Secretary of Energy invoking Section 303 of the Defense Production Act of 1950, as amended. The determination follows Executive Order 14156 issued on January 20, 2025, which declared a national energy emergency under the National Emergencies Act. The memorandum addresses the federal government's assessment of inadequate energy production capacity in the United States and authorizes the use of Defense Production Act authorities to expand grid infrastructure, equipment manufacturing, and supply chain capacity for energy-related systems.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-grid-infrastructure-equipment-and-supply-chain-capacity/"
+  },
+  {
+    "title": "Presidential Determination on Energy Infrastructure Development and Manufacturing Under Defense Production Act Section 303",
+    "summary": "This presidential determination, issued pursuant to Section 303 of the Defense Production Act of 1950, directs the Secretary of Energy to prioritize the development, manufacturing, and deployment of large-scale energy and energy-related infrastructure. The determination follows Executive Order 14156, which declared a national energy emergency under the National Emergencies Act on January 20, 2025. The measure authorizes the use of Defense Production Act authorities to accelerate energy infrastructure projects and related manufacturing capabilities.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-development-manufacturing-and-deployment-of-large-scale-energy-and-energy-related-inf/"
+  },
+  {
+    "title": "Presidential Determination on Natural Gas Infrastructure Development Under Defense Production Act Authority",
+    "summary": "This memorandum from the President to the Secretary of Energy invokes Section 303 of the Defense Production Act of 1950 to authorize priority allocation and expedited development of natural gas transmission, processing, storage, and liquefied natural gas capacity infrastructure. The determination follows Executive Order 14156 issued on January 20, 2025, which declared a national energy emergency under the National Emergencies Act based on identified foreign threats. The memorandum establishes federal authority to prioritize the production and expansion of natural gas infrastructure facilities to address stated national energy security objectives.",
+    "link": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-natural-gas-transmission-processing-storage-and-liquefied-natural-gas-capacity/"
   }
 ]
